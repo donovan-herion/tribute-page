@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+h1, h5, .pg {
+  font-family: Lobster,sans-serif;
+  text-align: center;
+
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTXp36XnMinYPHcCSh4IAJ7jLbPBIYa7sIBNudSnKJGqlRWptH1);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.click {
+  width: 15%;
+  position: absolute;
+  left : 10px;
+  top: 10px;
+}
+
+#img-div {
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#image {
+  border-radius: 50px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #080808;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  margin-bottom: 100px;
+}
+
+audio {
+  position: absolute;
+  left : 10px;
+  top: 180px;
+}
+
+audio {
+  opacity:0.05;
+  transition: all 0.5s ease;
+}
+
+audio:hover {
+  opacity: 1;
+}
+
+figcaption {
+  display: none;
+}
+
+.pg {
+  text-align: justify;
+  font-size: 24px;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+@media screen and (max-width: 1400px) {
+
+  audio {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    left : 0px;
+    top: 0px;
+    opacity: 1;
+  }
+
+  .click {
+    display: none;
+  }
+}
